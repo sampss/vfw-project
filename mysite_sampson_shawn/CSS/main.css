@@ -1,69 +1,54 @@
+/**/
+/* Font Styles, Header Setup, Global Rules*/
+body{
+	background-color: grey;
+	font: 1em/1 'Tenor Sans', sans-serif;
+	width: 790px;
+	margin: 0px auto;
+}
 
-/* Font Styles */
+header{
+	overflow: hidden;
+	background-color: black;
+	margin-bottom: 5px;
+}
+
+footer{
+	color: white;
+	background-color: black;
+	margin-top: 5px;
+	padding: 2px 2px;
+}
 
 h1, h2{
-	font: 2em/1 'Diplomata', cursive;
-	background: grey;
+	font: 1.8em/1 'Diplomata', cursive;
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+p{
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+/* Text Shadow  */
+
+h2{
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #000;
 }
 
 #home{ 
 	color: white;
-	Background-color: black;
-}
-
-p{
-	font: 1em/1 'Tenor Sans', sans-serif;
 }
 
 a{
 	font: 1em 'Homenaje', sans-serif;
 }
 
-/* Float list for nav */
-
-#home{
-	float: left;
-}
-
-nav{
-	float: right;
-}
-
-ul li{
- background: orange;
- display: inline;
-}
-
-#div1{
-	clear: both;
-}
-
-/* Float pic left to align first paragraph to the right of pic*/
-
-#penguin1{
-	float: left;
-}
-
-#more{
-	clear: both;
-}
-
-#div2{
-	-moz-column-count: 3;
-}
-
-/* Text Shadow  */
-
-#film {
-  text-shadow: 2px 2px 2px #000;
-}
-
-ol li {
-  list-style-type: upper-roman;
-}
 
 
-/* Link info */
+/* Link States */
 
 a:link{
 	color: blue;
@@ -80,6 +65,78 @@ a:hover{
 a:active{
 	color: grey;
 }
+
+
+/* using body tag to hold default font for paragraphs ---------------------/
+p{
+	font: 1em/1 'Tenor Sans', sans-serif;
+}*/
+
+
+/* header position */
+
+#home{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+ul{
+	padding-right: 5px;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0px 5px;
+	overflow: hidden;
+	font-size: 1.2em
+}
+
+.mainnav{
+
+}
+
+.mainnav{
+	border: 2px solid black;
+	
+}
+
+#div1{
+	clear: both;
+}
+
+
+/* Float pic left to align first paragraph to the right of pic*/
+
+#penguin1{
+	float: left;
+}
+
+#sectone{
+	width: 510px;
+	float: left;
+}
+
+#more{
+	clear: both;
+}
+
+/* multi colum for predators */
+
+#div2{
+	-moz-column-count: 3;
+}
+
+/* change movie link list numbers */
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+
 
 
 
@@ -102,5 +159,16 @@ Link Fonts (Sans-Serif)
 Homenaje
 <link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
 font-family: 'Homenaje', sans-serif;
+
+*/
+
+/*
+<div class="clearfix"></div>
+
+
+Ideas
+bg color should be a soft blue gradient into a light gray maybe.
+
+
 
 */
