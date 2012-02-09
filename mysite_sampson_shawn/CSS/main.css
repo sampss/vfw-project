@@ -1,6 +1,14 @@
 
+/* Font Styles */
+
 h1, h2{
 	font: 2em/1 'Diplomata', cursive;
+	background: grey;
+}
+
+#home{ 
+	color: white;
+	Background-color: black;
 }
 
 p{
@@ -8,8 +16,71 @@ p{
 }
 
 a{
-	font-family: 'Homenaje', sans-serif;
+	font: 1em 'Homenaje', sans-serif;
 }
+
+/* Float list for nav */
+
+#home{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+ul li{
+ background: orange;
+ display: inline;
+}
+
+#div1{
+	clear: both;
+}
+
+/* Float pic left to align first paragraph to the right of pic*/
+
+#penguin1{
+	float: left;
+}
+
+#more{
+	clear: both;
+}
+
+#div2{
+	-moz-column-count: 3;
+}
+
+/* Text Shadow  */
+
+#film {
+  text-shadow: 2px 2px 2px #000;
+}
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+
+/* Link info */
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: grey;
+}
+
 
 
 /* Font Family Information
