@@ -1,24 +1,28 @@
-/**/
-/* Font Styles, Header Setup, Global Rules*/
+
+/*------- Font Styles, Header Setup, Global Rules ------*/
 body{
-	background-color: grey;
+	background: #99cccc url("../Imgs/bg_blue2.jpg") repeat-x;
 	font: 1em/1 'Tenor Sans', sans-serif;
 	width: 790px;
 	margin: 0px auto;
 }
 
+
 header{
 	overflow: hidden;
 	background-color: black;
+	height: 50px;
 	margin-bottom: 5px;
 }
 
+
 footer{
-	color: white;
+	color: #FFF;
 	background-color: black;
 	margin-top: 5px;
 	padding: 2px 2px;
 }
+
 
 h1, h2{
 	font: 1.8em/1 'Diplomata', cursive;
@@ -26,44 +30,16 @@ h1, h2{
 	padding: 10px 10px;
 }
 
+
+
 p{
 	margin: 0px;
 	padding: 10px 10px;
 }
 
-/* Text Shadow  */
-
-h2{
-	font-size: 1.5em;
-	text-shadow: 2px 2px 2px #000;
-}
-
-#home{ 
-	color: white;
-}
 
 a{
-	font: 1em 'Homenaje', sans-serif;
-}
-
-
-
-/* Link States */
-
-a:link{
-	color: blue;
-}
-
-a:visited{
-	color: purple;
-}
-
-a:hover{
-	color: red;
-}
-
-a:active{
-	color: grey;
+	font: 1.3em 'Homenaje', sans-serif;
 }
 
 
@@ -73,30 +49,63 @@ p{
 }*/
 
 
-/* header position */
 
-#home{
+/*------------ h2 Text Shadow ------------------*/
+
+h2{
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+
+/*------------ global Link States -------------*/
+
+a:link{
+	color: #339933;
+}
+
+a:visited{
+	color: #F202FA;
+}
+
+a:hover{
+	color: #0234FA;
+}
+
+a:active{
+	color: #A68311;
+}
+
+
+
+/*---- home title font color, header styles, navlist ----*/
+
+#home{ 
+	color: white;
 	float: left;
+	
 }
 
 nav{
 	float: right;
 }
 
-ul{
-	padding-right: 5px;
-}
-
-ul li{
+ul#navlist{
 	list-style-type: none;
-	display: inline;
-	margin: 0px 5px;
-	overflow: hidden;
-	font-size: 1.2em
+	float: right;
+	
 }
 
-.mainnav{
+ul#navlist li{
+	display: inline;
 
+}
+
+ul#navlist li a{
+	margin: 0px 5px;
+	float: left;
+	padding: 0px 5px;
 }
 
 .mainnav{
@@ -109,7 +118,9 @@ ul li{
 }
 
 
-/* Float pic left to align first paragraph to the right of pic*/
+
+
+/*-- Float pic left to align first paragraph to the right of pic --*/
 
 #penguin1{
 	float: left;
@@ -124,13 +135,15 @@ ul li{
 	clear: both;
 }
 
-/* multi colum for predators */
+/*------------- multi colum for predators -------------*/
 
 #div2{
 	-moz-column-count: 3;
 }
 
-/* change movie link list numbers */
+
+
+/*------------ change movie link list numbers ---------*/
 
 ol li {
   list-style-type: upper-roman;
@@ -138,9 +151,53 @@ ol li {
 
 
 
+/*--------------Photo Gallery ul style-----------------*/
+
+ul#gallery{
+	overflow: hidden;
+	border: 1px solid black;
+	list-style-type: none;
+	width: 555px;
+	padding: 10px;
+}
+
+ul#gallery li{
+	float: left;
+	margin: 15px 0px 15px 15px;
+}
+
+ul#gallery li a{
+	display: block;
+	border: 10px solid #fff;
+	height: 100px;
+	width: 100px;
+	outline: 0;
+}
+
+ul#gallery li a:link{
+	border-color: #339933;
+}
+
+ul#gallery li a:visited{
+	border-color: #F202FA;
+}
+
+ul#gallery li a:hover{
+	border-color: #0234FA;
+}
+
+ul#gallery li a:active{
+	border-color: #A68311;
+}
 
 
-/* Font Family Information
+
+
+/*--------------  -----------------*/
+
+/* INFO
+
+----Font Family Information----
 
 Heading Fonts (Display)
 
@@ -160,15 +217,25 @@ Homenaje
 <link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
 font-family: 'Homenaje', sans-serif;
 
-*/
+-------- clearfix ----------
 
-/*
+.clearfix{
+	clear: both;
+}
+
 <div class="clearfix"></div>
 
+-------- color info ---------
 
-Ideas
-bg color should be a soft blue gradient into a light gray maybe.
+Link                #339933
 
+Link visited        #F202FA
+
+Link hover          #0234FA
+
+Link active         #A68311
+
+background color    #99cccc
 
 
 */
