@@ -1,0 +1,352 @@
+
+/*------- Font Styles, Header Setup, Global Rules ------*/
+body{
+	background: #99cccc url("../Imgs/bg_blue2.jpg") repeat-x;
+	font: 1em/1 'Tenor Sans', sans-serif;
+	width: 790px;
+	margin: 0px auto;
+}
+
+
+header{
+	overflow: hidden;
+	background-color: #000;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+
+footer{
+	color: #fff;
+	background-color: black;
+	margin-top: 5px;
+	padding: 2px 2px;
+}
+
+
+h1, h2{
+	font: 1.8em/1 'Diplomata', cursive;
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+
+
+p{
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+
+a{
+	font: 1em 'Homenaje', sans-serif;
+}
+
+
+/* using body tag to hold default font for paragraphs ---------------------/
+p{
+	font: 1em/1 'Tenor Sans', sans-serif;
+}*/
+
+
+
+/*------------ h2 Text Shadow ------------------*/
+
+h2{
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+
+/*------------ global Link States -------------*/
+
+a:link{
+	color: #339933;
+}
+
+a:visited{
+	color: #F202FA;
+}
+
+a:hover{
+	color: #0234FA;
+}
+
+a:active{
+	color: #A68311;
+}
+
+
+
+/*---- home title font color, header styles, navlist ----*/
+
+#home{ 
+	color: white;
+	float: left;
+	
+}
+
+nav{
+	float: right;
+}
+
+ul#navlist{
+	overflow: hidden;
+	border: 1px solid #000;
+	list-style-type: none;
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#navlist li{
+	float: left;
+	font-size: 1.2em;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+ul#navlist li a{
+	display: block;
+	border: 10px solid #000;
+	outline: 0;
+}
+
+ul#navlist li a:link{
+    text-decoration: none;
+	border-color: #000;
+}
+
+ul#navlist li a:visited{
+	border-color: #000;
+}
+
+ul#navlist li a:hover{
+	color: #339933;
+	border-color: #2D2D2E;
+}
+
+ul#navlist li a:active{
+	border-color: #A68311;
+}
+
+
+/*
+removed failed nav list
+*/
+
+#div1{
+	clear: both;
+}
+
+
+
+
+/*-- Float pic left to align first paragraph to the right of pic --*/
+
+#penguin1{
+	float: left;
+}
+
+#sectone{
+	width: 510px;
+	float: left;
+}
+
+#more{
+	clear: both;
+}
+
+/*------------- multi colum for predators -------------*/
+
+#div2{
+	-moz-column-count: 3;
+}
+
+
+
+/*------------ change movie link list numbers ---------*/
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+
+
+/*--------------Photo Gallery ul style-----------------*/
+
+ul#gallery{
+	overflow: hidden;
+	/*border: 1px solid #000;*/
+	list-style-type: none;
+	width: 555px;
+	padding: 10px;
+}
+
+ul#gallery li{
+	float: left;
+	margin: 15px 0px 15px 15px;
+}
+
+ul#gallery li a{
+	display: block;
+	border: 10px solid #fff;
+	height: 100px;
+	width: 100px;
+	outline: 0;
+}
+
+ul#gallery li a:link{
+	border-color: #339933;
+}
+
+ul#gallery li a:visited{
+	border-color: #F202FA;
+}
+
+ul#gallery li a:hover{
+	border-color: #0234FA;
+}
+
+ul#gallery li a:active{
+	border-color: #A68311;
+}
+
+/*--------- div3, table, form, backgroud opacity on div3 -----------*/
+
+#div3{
+	overflow: hidden;
+	border: 4px solid #000;
+	-moz-border-radius: 10px;
+	padding: 10px;
+	background: rgba(81, 81, 82, 0.5); /*#515152;*/
+	height: 520px;
+	width: 762px;
+}
+
+
+#donation_container{
+	float: left;
+	border: 1px solid #000;
+	width: 379px;
+	height: 480px;
+}
+
+
+#form_container{
+	float: left;
+	border: 1px solid #000;
+	width: 379px;
+	height: 480px;
+}
+
+/*-- button - does not validate didnt get to make the changes i would like to the button --*/
+
+
+.button {
+	float: right;
+	margin-top: 10px;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+.green {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.green:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.green:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+
+#end{
+	clear: both;
+}
+
+
+
+/*--------------  -----------------*/
+
+/* INFO
+
+----Font Family Information----
+
+Heading Fonts (Display)
+
+Diplomata:
+<link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet' type='text/css'>
+font-family: 'Diplomata', cursive;
+
+Paragraph Fonts (Sans-Serif)
+
+Tenor Sans
+<link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
+font-family: 'Tenor Sans', sans-serif; 
+
+Link Fonts (Sans-Serif)
+
+Homenaje
+<link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
+font-family: 'Homenaje', sans-serif;
+
+-------- clearfix ----------
+
+.clearfix{
+	clear: both;
+}
+
+<div class="clearfix"></div>
+
+
+-moz-border-radius: 10px 30px
+
+-------- color info ---------
+
+Link                #339933
+
+Link visited        #F202FA
+
+Link hover          #0234FA
+
+Link active         #A68311
+
+Nav border color    #2D2D2E
+
+background color    #99cccc
+
+
+*/
