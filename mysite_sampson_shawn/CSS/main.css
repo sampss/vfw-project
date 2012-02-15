@@ -1,5 +1,5 @@
 
-/*------- Font Styles, Header Setup, Global Rules ------*/
+/*------- Font Styles, Header Styles, Global Rules ------*/
 body{
 	background: #99cccc url("../Imgs/bg_blue2.jpg") repeat-x;
 	font: 1em/1 'Tenor Sans', sans-serif;
@@ -11,7 +11,7 @@ body{
 header{
 	overflow: hidden;
 	background-color: #000;
-	height: 50px;
+	height: 40px;
 	margin-bottom: 5px;
 }
 
@@ -25,9 +25,9 @@ footer{
 
 
 h1, h2{
-	font: 1.8em/1 'Diplomata', cursive;
+	font: 1.6em/1 'Diplomata', cursive;
 	margin: 0px;
-	padding: 10px 10px;
+	padding: 5px 5px;
 }
 
 
@@ -79,7 +79,7 @@ a:active{
 
 
 
-/*---- home title font color, header styles, navlist ----*/
+/*---- home title font color, navlist ----*/
 
 #home{ 
 	color: white;
@@ -90,6 +90,47 @@ a:active{
 nav{
 	float: right;
 }
+
+ul#navlist{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0px;
+	width: 225px;
+}
+
+ul#navlist li{
+	overflow: hidden;
+	width: 75px;
+	text-align: center;
+	float: left;
+}
+
+ul#navlist li a{
+	font-size: 1.3em;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #393;
+}
+
+ul#navlist li a:visited{
+	color: #F202FA;
+}
+
+ul#navlist li a:hover{
+	color: #0234FA;
+	background-color: grey;
+}
+
+ul#navlist li a:active{
+	color: #A68311;
+	background-color: white;
+}
+
+
+/*---- old main nav
 
 ul#navlist{
 	overflow: hidden;
@@ -130,7 +171,7 @@ ul#navlist li a:hover{
 ul#navlist li a:active{
 	border-color: #A68311;
 }
-
+*/
 
 /*
 removed failed nav list
