@@ -5,6 +5,7 @@
 		
 		<meta charset="utf-8">
 		<title>Emperor Penguins</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="CSS/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
@@ -14,43 +15,34 @@
 
 	<body>
 	
-	<header>
-		<h1 id="home">Emperor Penguins</h1>
+		<header>
+			<h1 id="home">Emperor Penguins</h1>
 	
-	<nav>
-	<!--	removed this list, opted for a shorter nav menue.
-		<ul>
-			<li><a href="#home" title="Home">Home</a></li>
-			<li><a href="#basic" title="The Basics">The Basics</a></li>
-			<li><a href="#behaviour" title="Behaviour">Behaviour</a></li>
-			<li><a href="#diet" title="Diet">Diet</a></li>
-			<li><a href="#predators" title="Predators">Predators</a></li>
-			<li><a href="#film" title="Film">Film</a></li>
-		</ul> -->
+			<nav>		
+				<ul id="navlist">
+					<li><a href="#home" title="Home" class="mainnav">Home</a></li>
+					<li><a href="#more" title="More Info" 	class="mainnav">More</a></li>
+					<li><a href="#end" title="End" class="mainnav">End</a></li>	
+				</ul>
 		
-		<ul id="navlist">
-			<li><a href="#home" title="Home" class="mainnav">Home</a></li>
-			<li><a href="#more" title="More Info" class="mainnav">More</a></li>
-			<li><a href="#end" title="End" class="mainnav">End</a></li>	
-		</ul>
-		
-	</nav>
+			</nav>
 	
-	</header>	
+		</header>	
 
-	<div id="div1"><!-- Opening Block -->
+		<div id="div1"><!-- Opening Block -->
 
-		<img src="Imgs/penguin_optimized.jpg" width="280" height="380" alt="photo of penguine" title="Emperor Penguine" id="penguin1">
+			<div class="imgbox">	<img src="Imgs/penguin_optimized.jpg" alt="photo of penguine" title="Emperor Penguine" id="penguin1">
+			</div>
 		
 		
-	<article id="sectone">	
-		<h2 id="basic">The Basics</h2>
+			<article id="sectone">	
+				<h2 id="basic">The Basics</h2>
 	
-		<p class="basics">The Emperor Penguin is the <span>tallest</span><!-- may display penguin size chart when hovered over. --> and <strong>heaviest</strong> of all living penguin species and lives in Antarctica. The male and female are similar in color and size, reaching 48 inches in height and weighing anywhere from 49 to 99 pounds. The dorsal side and head are black and sharply delineated from the white belly, pale-yellow breast and bright-yellow ear patches. Like all penguins it is flightless, with a streamlined body, and wings stiffened and flattened into flippers for swimming instead of flying.</p>
+				<p class="basics">The Emperor Penguin is the <span>tallest</span><!-- may display penguin size chart when hovered over. --> and <strong>heaviest</strong> of all living penguin species and lives in Antarctica. The male and female are similar in color and size, reaching 48 inches in height and weighing anywhere from 49 to 99 pounds. The dorsal side and head are black and sharply delineated from the white belly, pale-yellow breast and bright-yellow ear patches. Like all penguins it is flightless, with a streamlined body, and wings stiffened and flattened into flippers for swimming instead of flying.</p>
 		
-		<p class="basics">The Emperor Penguin breeds in the coldest environment of any bird species.  The air temperatures may reach −40 °F, and wind speeds may reach 89 mph. Water temperature is a chilling 28.8 °F. The Emperor Penguin's average body temperature is 102 °F even in the ice cold environment. The species has adapted in several ways to counteract heat loss. Feathers provide 80–90% of its insulation, and it has a layer of fat which may be up to 1.2 inches thick. This layer of fat makes it difficult for the Emperor penguin to move on land</p>
-	</article>	
-	</div>
+				<p class="basics">The Emperor Penguin breeds in the coldest environment of any bird species.  The air temperatures may reach −40 °F, and wind speeds may reach 89 mph. Water temperature is a chilling 28.8 °F. The Emperor Penguin's average body temperature is 102 °F even in the ice cold environment. The species has adapted in several ways to counteract heat loss. Feathers provide 80–90% of its insulation, and it has a layer of fat which may be up to 1.2 inches thick. This layer of fat makes it difficult for the Emperor penguin to move on land</p>
+			</article>	
+		</div>
 	
 		<h2 id="more">Behaviour</h2>
 		<p>The Emperor Penguin is a social animal in its nesting and its foraging behaviour. Birds hunting together may coordinate their diving and surfacing.  A mature adult travels throughout most of the year between the nesting area and ocean foraging areas. The penguins disperses into the oceans from January to March.</p>
@@ -63,67 +55,69 @@
 		
 		<div id="div2">
 		
-		<p>The Emperor Penguin's predators include birds and aquatic mammals. The Southern Giant Petrel is the predominant land predator of baby penguins.  The Petrel is responsible for up to 34% of chick deaths in some colonies though they often scavenge dead penguins as well.  The South Polar Skua mainly scavenges for dead chicks, as the live chicks are too large to be attacked by the time of its annual arrival in the colony.</p>  
+			<p>The Emperor Penguin's predators include birds and aquatic mammals. The Southern Giant Petrel is the predominant land predator of baby penguins.  The Petrel is responsible for up to 34% of chick deaths in some colonies though they often scavenge dead penguins as well.  The South Polar Skua mainly scavenges for dead chicks, as the live chicks are too large to be attacked by the time of its annual arrival in the colony.</p>  
 		
-		<p>The known aquatic predators are both mammals such as the Leopard Seal and the Orca whale.</p>
+			<p>The known aquatic predators are both mammals such as the Leopard Seal and the Orca whale.</p>
 
-		<p>If one of a breeding pair dies or is killed during the breeding season, the surviving parent must abandon its egg or young and go back to the sea to feed.</p>
+			<p>If one of a breeding pair dies or is killed during the breeding season, the surviving parent must abandon its egg or young and go back to the sea to feed.</p>
 	
-	</div>
+		</div>
 	
-	<article><!-- stand alone section discussing some areas where the penguin appears in films -->
+		<article><!-- stand alone section discussing some areas where the penguin appears in films -->
 		
-		<h2 id="film">The Emperor and Film</h2>
+			<h2 id="film">The Emperor and Film</h2>
 		
-		<p>Emperor penguins have been featured in many different films.  Some of the films include the following list.</p>
+			<p>Emperor penguins have been featured in many different films.  Some of the films include the following list.</p>
 		
-		<ol>
+			<ol>
 	
-			<li><a href="http://www.imdb.com/title/tt0428803/" title="March of the Penguins">March of the Penguins</a></li>
-			<li><a href="http://www.imdb.com/title/tt0277490/" title="Life in the Freezer">Life in the Freezer</a></li>
-			<li><a href="http://www.imdb.com/title/tt0795176/" title="Planet Earth">Planet Earth</a></li>
-			<li><a href="http://www.imdb.com/title/tt2092588/" title="Frozen Planet">Frozen Planet</a></li>
-			<li><a href="http://www.imdb.com/title/tt0366548/" title="Happy Feet">Happy Feet</a></li>
-			<li><a href="http://www.imdb.com/title/tt0423294/" title="Surfs Up">Surfs Up</a></li> 
+				<li><a href="http://www.imdb.com/title/tt0428803/" title="March of the Penguins">March of the Penguins</a></li>
+				<li><a href="http://www.imdb.com/title/tt0277490/" title="Life in the Freezer">Life in the Freezer</a></li>
+				<li><a href="http://www.imdb.com/title/tt0795176/" title="Planet Earth">Planet Earth</a></li>
+				<li><a href="http://www.imdb.com/title/tt2092588/" title="Frozen Planet">Frozen Planet</a></li>
+				<li><a href="http://www.imdb.com/title/tt0366548/" title="Happy Feet">Happy Feet</a></li>
+				<li><a href="http://www.imdb.com/title/tt0423294/" title="Surfs Up">Surfs Up</a></li> 
 			
-		</ol>
+			</ol>
 	
-	</article>
+		</article>
 	
 		<h2>Photo Gallery</h2>
 		
+		
 		<ul id="gallery">
-			<li><a href="Imgs/penguinegg.jpg" title="egg"><img src="Imgs/penguinegg.jpg" width="100" height="100" alt="egg" title="egg"></a></li>
-			<li><a href="Imgs/penguinbabysitter.jpg" title=""><img src="Imgs/penguinbabysitter.jpg" width="100" height="100" alt="babies" title="babies"></a></li>
-			<li><a href="Imgs/divingpenguin.jpg" title="diving"><img src="Imgs/divingpenguin.jpg" width="100" height="100" alt="diving" title="diving"></a></li>
-			<li><a href="Imgs/penguin_sizes.gif" title="sizes"><img src="Imgs/penguin_sizes.gif" width="100" height="100" alt="sizes" title="sizes"></a></li>
+			<li><a href="Imgs/penguinegg.jpg" title="egg"><img src="Imgs/penguinegg.jpg" alt="egg" title="egg"></a></li>
+			<li><a href="Imgs/penguinbabysitter.jpg" title=""><img src="Imgs/penguinbabysitter.jpg" alt="babies" title="babies"></a></li>
+			<li><a href="Imgs/divingpenguin.jpg" title="diving"><img src="Imgs/divingpenguin.jpg" alt="diving" title="diving"></a></li>
+			<li><a href="Imgs/penguin_sizes.gif" title="sizes"><img src="Imgs/penguin_sizes.gif" alt="sizes" title="sizes"></a></li>
 		</ul>
 		
-	<div id="div3">	
-	<div id="donation_container">
-		<h2>Donations</h2>
 		
-	<article id="table"></article>
+		<div id="div3">	
+			<div id="donation_container">
+				<h2>Donations</h2>
 		
-	</div>	
-	<div id="form_container">
-		<h2>Sign-Up</h2>
+				<article id="table"></article>
 		
-	<article id="form"></article>
+			</div>	
+			<div id="form_container">
+				<h2>Sign-Up</h2>
+		
+				<article id="form"></article>
 
-	</div>
+			</div>
 	
-	<a href="#" class="button green">Submit</a> 
-	</div>	
+			<div class="clearfix"></div>
+	
+			<a href="#" class="button green">Submit</a> 
+		</div>	
 	
 	
 	
-	<footer id="end">
-		<p>The End of the page, includes copy info and dates.  Feb, 9 2012</p>
-	</footer>
+		<footer id="end">
+			<p>The End of the page, includes copy info and dates.  Feb, 9 2012</p>
+		</footer>
 	
 	</body>
-
-
 
 </html>
