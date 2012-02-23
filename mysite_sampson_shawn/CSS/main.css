@@ -247,6 +247,11 @@ ul#gallery li a:active{
 	-moz-border-radius: 10px;
 }
 
+p#donate_p{
+	max-width: 400px;
+	text-align: center;
+}
+
 .h_center{
 	text-align: center;
 	margin-bottom: 5px;
@@ -281,33 +286,39 @@ ul#gallery li a:active{
 	-moz-border-radius: 10px;
 }
 
-div#fcon2{
-	margin: 0 auto;
-	width: 90%;
-	background: #fff;
-	position: relative;
-	/*top: 50px;*/
-	border: 1px solid black;
-	padding: .5em;
+/*--- form style --*/
+
+fieldset{
+	max-width: 60%;
+	margin: 10px auto;
+	text-align: right;
+	
 }
 
-div#fcon2 label{
-	margin: 5px 0px;
-	width: 100%;
-	display: block;
-	padding 10px 0 10px 0;
-}
-#contact_me{
-float: left;
-margin-right: 10px;
+.field{
+	width: 200px;
 }
 
-#message{
-	margin-top: 5px;
+dl {
+	clear:both;
 }
-div#f8{
-	margin-top: 10px;
+dt {
+	margin: 3px 0px;
+	float:left;
+	clear:left;
 }
+dd {
+	margin: 10px 0px;
+	overflow:hidden;
+	height:1%;
+}
+dd.form_clear {
+	clear:both;
+}
+input#contact_me{
+	float: left;
+}
+
 
 .clearfix{
 	clear: both;
@@ -319,6 +330,7 @@ a.button {
 	float: right;
 	color: #BEFFFF;
 	margin-top: 10px;
+	margin-right: 10px;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
@@ -424,7 +436,7 @@ a.button:active {
 	#donation_container{
 	float: none;
 	width: 98%;
-	height: 260px;
+	height: 300px;
 	margin: 5px 1%;
 	}
 	#form_container{
@@ -445,6 +457,9 @@ a.button:active {
 	#table_1 th{
 	height: 30px;
 	}
+	fieldset{
+	max-width: 50%;	
+}
 }
 
 
